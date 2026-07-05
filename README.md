@@ -10,7 +10,7 @@ Use this repo to hold planning notes, prompts, checklists, phase proposals, and 
 
 - Phase 1: Planning package v1.1 approved
 - Phase 2: Google Drive top-level inventory completed read-only
-- Phase 3: Not started
+- Phase 3: COMPLETE 2026-07-05 — Google Drive PARA file-cabinet folders created (empty); Obsidian vault 'Second Brain' created in Google Drive (5 empty PARA folders + 14 linked starter notes, links verified); zero existing files touched
 - Phase 4: Not started
 
 ## Permanent safety rules
@@ -25,4 +25,4 @@ Use this repo to hold planning notes, prompts, checklists, phase proposals, and 
 
 ## Next step
 
-Create the Phase 3 Skeleton Setup Proposal only. Do not create folders yet.
+Review `phase-3-skeleton-setup-proposal.md`. Folders are created only after the exact approval phrase in that document. Do not create folders yet.
