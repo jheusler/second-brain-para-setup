@@ -10,7 +10,7 @@ Use this repo to hold planning notes, prompts, checklists, phase proposals, and 
 
 - Phase 1: Planning package v1.1 approved
 - Phase 2: Google Drive top-level inventory completed read-only
-- Phase 3: Functioning Second Brain MVP Proposal drafted (see `phase-3-skeleton-setup-proposal.md`, rev 2) — awaiting approval; nothing created
+- Phase 3: Functioning Second Brain MVP approved (see `phase-3-skeleton-setup-proposal.md`, rev 3 — clean PARA) — execution in progress
 - Phase 4: Not started
 
 ## Permanent safety rules

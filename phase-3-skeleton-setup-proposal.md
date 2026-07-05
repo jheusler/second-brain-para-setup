@@ -1,33 +1,33 @@
 # Phase 3: Functioning Second Brain MVP Proposal
 
-**Status:** PROPOSAL ONLY — nothing has been created. No storage was touched to write this document.
+**Status:** APPROVED — user sent `APPROVED: CREATE FUNCTIONING SECOND BRAIN MVP` on 2026-07-05. Execution follows the pre-creation checks in Section 9.
 
-Revision 2. This replaces the folders-only skeleton proposal: Phase 3 now delivers a **usable** Obsidian-based Second Brain starter system, not just empty folders. Numbered prefixes keep PARA order at the top of every file browser (ADHD-friendly: one obvious place to look, same order everywhere).
+Revision 3 (clean PARA). Changes from rev 2: folder skeleton is now pure PARA plus Inbox (`0-Inbox`, `1-Projects`, `2-Areas`, `3-Resources`, `4-Archive`) for **both** Google Drive and Obsidian; `05_Daily` and `06_Templates` removed; no utility folders; iCloud deferred out of Phase 3.
 
 ---
 
 ## 1. Functioning MVP Definition
 
-The MVP is complete only when, after later approval, all of the following are true:
+The MVP is complete only when all of the following are true:
 
-1. Google Drive has empty PARA file-cabinet folders.
-2. Obsidian has empty PARA folders.
-3. Obsidian has the starter notes listed in Section 4.
+1. Google Drive has the empty PARA file-cabinet folders (Section 2).
+2. Obsidian has the same empty PARA folders (Section 3).
+3. Obsidian has the 14 starter notes (Section 4) at the vault root, so Graph View works immediately.
 4. Starter notes use `[[double bracket links]]`.
 5. Graph View shows a connected starter map (Section 6).
 6. A Weekly Review note exists.
 7. **No existing files have been moved or modified.**
 
-iCloud is out of MVP scope — deferred to a later phase if still wanted.
+iCloud is not part of Phase 3 — deferred.
 
 ## 2. Exact Google Drive folders to create (top level of My Drive)
 
 ```
-00_Inbox
-01_Projects
-02_Areas
-03_Resources
-04_Archive
+0-Inbox
+1-Projects
+2-Areas
+3-Resources
+4-Archive
 ```
 
 Created empty and left empty during Phase 3. Subfolders and file migration are Phase 4.
@@ -35,23 +35,21 @@ Created empty and left empty during Phase 3. Subfolders and file migration are P
 ## 3. Exact Obsidian folders to create (vault root)
 
 ```
-00_Inbox
-01_Projects
-02_Areas
-03_Resources
-04_Archive
-05_Daily
-06_Templates
+0-Inbox
+1-Projects
+2-Areas
+3-Resources
+4-Archive
 ```
 
-Created empty. Starter notes (Section 4) live at the **vault root**, so these folders stay empty in Phase 3 — they are the filing structure; the starter notes are the map.
+Identical to Google Drive — same numbers mean the same thing everywhere. No `05_Daily`, no `06_Templates`, no utility folders in Phase 3.
 
 ## 4. Exact Obsidian starter notes to create (14 notes, vault root)
 
 | Note | Purpose |
 |---|---|
 | `Home.md` | Dashboard / single front door to everything |
-| `Inbox.md` | Capture point; explains what lands in `00_Inbox` |
+| `Inbox.md` | Capture point; explains what lands in `0-Inbox` |
 | `PARA.md` | One-page explanation of the PARA method |
 | `CODE Workflow.md` | Capture → Organize → Distill → Express reference |
 | `Weekly Review.md` | The weekly reset ritual (Section 8) |
@@ -65,7 +63,7 @@ Created empty. Starter notes (Section 4) live at the **vault root**, so these fo
 | `Miss Mess Designs.md` | Project note |
 | `Watercolor.md` | Project note |
 
-Each note gets a short heading, 2–4 lines of purpose text, and its links from Section 5. Nothing else.
+Each note gets a short heading, 2–4 lines of purpose text, and its links from Section 5. Notes stay at vault root for now so Graph View lights up immediately.
 
 ## 5. Starter note link map
 
@@ -77,53 +75,59 @@ Each note gets a short heading, 2–4 lines of purpose text, and its links from 
 
 ## 6. Graph View expectation
 
-After creation, opening Graph View shows one connected constellation with no orphan notes: `Home` as the hub linking to all 13 other notes; `PARA`, `Weekly Review`, and `Google Drive File Cabinet` forming a dense core around the four PARA index notes; the four project notes connected via `Home` and `Projects`. If any note appears disconnected, that is a defect to fix before Phase 3 is called done.
+Opening Graph View shows one connected constellation with no orphan notes: `Home` as the hub linking to all 13 other notes; `PARA`, `Weekly Review`, and `Google Drive File Cabinet` forming a dense core around the four PARA index notes; the four project notes connected via `Home` and `Projects`. Any disconnected note is a defect to fix before Phase 3 is done.
 
 ## 7. Google Drive role
 
-Google Drive is the **file cabinet**; Obsidian is the **thinking space**. Files (PDFs, images, documents, spreadsheets) live in Drive's PARA folders; notes, ideas, and links live in the vault. `Google Drive File Cabinet.md` documents this split and mirrors the same `00`–`04` numbering, so "where does this go?" always has the same answer in both systems.
+Google Drive is the **file cabinet**; Obsidian is the **thinking space**. Files (PDFs, images, documents, spreadsheets) live in Drive's PARA folders; notes, ideas, and links live in the vault. `Google Drive File Cabinet.md` documents this split and mirrors the same `0`–`4` numbering, so "where does this go?" always has the same answer in both systems.
 
 ## 8. Weekly Review workflow
 
 `Weekly Review.md` contains this checklist (once weekly, ~15 minutes):
 
 1. Open [[Inbox]] — process captures: file, link, or delete each item.
-2. Sweep the `00_Inbox` folders (vault and Drive) toward Projects/Areas/Resources/Archive.
+2. Sweep the `0-Inbox` folders (vault and Drive) toward Projects/Areas/Resources/Archive.
 3. Open [[Projects]] — for each project: still active? next action known? Stalled → [[Archive]].
 4. Glance at [[Areas]] — anything needing attention this week?
 5. Move anything finished or dead to [[Archive]].
 6. Done. Close everything.
 
-## 9. Safety rules
+## 9. Pre-creation checks and safety rules
 
-- **Create-only.** New empty folders and the 14 new starter notes above — nothing else.
+Before creating anything, verify exactly:
+
+1. Google Drive folder list = `0-Inbox`, `1-Projects`, `2-Areas`, `3-Resources`, `4-Archive` (nothing else).
+2. Obsidian folder list = the same five (nothing else).
+3. Obsidian starter note list = exactly the 14 notes in Section 4.
+4. iCloud is not included.
+5. No cleanup or migration is included.
+
+If any check fails, stop and create nothing. If the Obsidian vault location is unknown, ask only: "Where is your Obsidian vault located?"
+
+Safety rules during creation:
+
+- **Create-only.** The five folders per system and the 14 starter notes — nothing else.
 - **No existing file or folder is moved, renamed, deleted, synced, edited, modified, opened, or reorganized.**
-- **Name collision → stop.** If any proposed folder or note name already exists, stop and ask; never overwrite or merge.
-- **No plugins, settings, sync, or automation changes** in Obsidian or anywhere else.
-- **Git and LaunchCode repos are never entered** (the `LaunchCode.md` note only links *about* the work; it does not touch any repo).
-- **Anything unexpected → stop and report.**
-- **Hard stop at the phase boundary.** No cleanup or migration under Phase 3 approval.
+- **Collision rule:** if a proposed folder or note already exists, do not overwrite it; report it as already existing and continue only if doing so modifies nothing.
+- **No plugins, settings, sync, or automation changes.**
+- **Git and LaunchCode repos are never entered.**
+- **Hard stop after Phase 3 evidence.** No cleanup or migration.
 
-**Order if approved:** (1) Google Drive folders → evidence; (2) Obsidian folders → evidence; (3) Obsidian starter notes → evidence incl. Graph View; stop.
+**Order:** (1) Google Drive folders → evidence; (2) Obsidian folders → evidence; (3) Obsidian starter notes → evidence incl. link check and Graph View; stop.
 
-## 10. Required approval phrase
-
-Nothing is created until you send exactly:
+## 10. Approval phrase
 
 > **APPROVED: CREATE FUNCTIONING SECOND BRAIN MVP**
 
-Anything else — including "looks good", "go ahead", or partial phrases — does not count as approval.
+Sent by the user on 2026-07-05.
 
-## 11. Evidence to show after creation (if approved later)
+## 11. Evidence to show after creation
 
-- Google Drive: list of the 5 folders created, their location, confirmation each is empty.
-- Obsidian: list of the 7 folders created, confirmation each is empty.
-- Obsidian: list of the 14 notes created with their full contents.
-- A link check: every link in Section 5 resolves to an existing note (no broken/orphan links).
-- Graph View screenshot or equivalent confirmation of one connected starter map.
-- Confirmation that zero existing files/folders were moved, renamed, modified, or deleted.
-- Timestamp of each step.
-
----
-
-**Next step after this proposal:** nothing, until you either request changes or send the approval phrase.
+- Google Drive: the 5 folders created (or reported as already existing), their location, confirmation each is empty.
+- Obsidian: the 5 folders created (or already existing), confirmation each is empty.
+- Obsidian: the 14 notes created.
+- Link check: every link in Section 5 resolves to an existing note (no broken/orphan links).
+- Graph View: confirmation of one connected starter map.
+- Confirmation iCloud was not touched.
+- Confirmation zero existing files/folders were moved, renamed, modified, deleted, synced, opened, or reorganized.
+- Confirmation Git and LaunchCode repos were not touched.
