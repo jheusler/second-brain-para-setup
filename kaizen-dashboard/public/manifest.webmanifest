@@ -1,0 +1,9 @@
+{
+  "name": "Kaizen Dashboard",
+  "short_name": "Kaizen",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f6f3ea",
+  "theme_color": "#5f8f6b",
+  "icons": [{ "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }]
+}
